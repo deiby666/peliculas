@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+body{
+    background-color: rgba(2, 24, 2, 0.986);
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contenedor input{
+    width: 30%;
+    margin: 20px auto;
+    text-align: center;
+    color: black;
+    padding: 10px;
+}
+
+.logo{
+    background-color: white;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.logo p{
+    background-color: red;
+    border-radius: 50%;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.peliculas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.tarjeta{
+    border: 2px solid black;
+    width: 400px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+
+}
+.tarjeta img{
+    width: 100%; 
+    margin: auto;
+    height: 250px;
+
+}
+.tarjeta p, h2{
+    color: black;
+}
+
